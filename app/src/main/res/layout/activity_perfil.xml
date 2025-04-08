@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".activities.perfilActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imgPerfil"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="40dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pepo" />
+
+            <Button
+                android:id="@+id/btnCambiarImagen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/boton_redondeado"
+                android:text="Cambiar Imagen"
+                android:textColor="@color/blue" />
+
+
+            <TextView
+                android:id="@+id/infoEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Este es su correo electrónico registrado"
+                android:textColor="@color/red"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No registrado"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/infoNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Este es su nombre registrado"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/labelNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Nombre:"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desconocido"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp" />
+
+            <EditText
+                android:id="@+id/editNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Editar Nombre"
+                android:visibility="gone"
+                android:background="@drawable/edit_text_rounded"
+                android:padding="15dp"
+                android:layout_marginBottom="30dp" />
+
+            <TextView
+                android:id="@+id/infoApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Este es su apellido registrado"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/labelApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Apellido:"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desconocido"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp" />
+
+            <EditText
+                android:id="@+id/editApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Editar Apellido"
+                android:visibility="gone"
+                android:background="@drawable/edit_text_rounded"
+                android:padding="15dp"
+                android:layout_marginBottom="30dp" />
+
+
+            <TextView
+                android:id="@+id/infoTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Este es su número de teléfono registrado"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/labelTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Teléfono:"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No registrado"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp" />
+
+            <EditText
+                android:id="@+id/editTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Editar Teléfono"
+                android:visibility="gone"
+                android:background="@drawable/edit_text_rounded"
+                android:padding="15dp"
+                android:layout_marginBottom="40dp" />
+
+            <Button
+                android:id="@+id/btnEditar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/boton_redondeado"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="15dp"
+                android:text="Editar"
+                android:textColor="@color/blue"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar"
+                android:background="@drawable/boton_redondeado"
+                android:padding="15dp"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:id="@+id/btnCancelar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancelar"
+                android:background="@drawable/boton_redondeado"
+                android:padding="15dp"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:layout_marginBottom="40dp" />
+
+            <Button
+                android:id="@+id/btnActivityCentral"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/boton_redondeado"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:padding="15dp"
+                android:text="Volver"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

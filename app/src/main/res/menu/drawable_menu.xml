@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/inicioFragment"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="Inicio"
+        android:textColor="@android:color/white"/>
+
+    <item
+        android:id="@+id/categoriasFragment"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Categorías"
+        android:textColor="@android:color/white"/>
+
+    <item
+        android:id="@+id/carritoFragment"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Carrito"
+        android:textColor="@android:color/white"/>
+
+    <item
+        android:id="@+id/productosFragment"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="Productos"
+        android:textColor="@android:color/white"/>
+
+    <item
+        android:id="@+id/perfil"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Perfil"
+        android:textColor="@android:color/white"/>
+</menu>
+

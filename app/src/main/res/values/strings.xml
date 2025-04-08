@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">StarLight</string>
+    <string name="minombre">Daniel Mendez</string>
+    <string name="registrate">Registrate</string>
+    <string name="texto_introductorio">inicia una nueva aventura con StarLIght y descubre la mejor tienda del mercado</string>
+    <string name="comenzar">Comienza</string>
+    <string name="texto_segundario">¡Ingresa a nuestra tienda! ¿que esperas?, por favor inicia sesion</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="recuperar">Recuperar contraseña</string>
+    <string name="nocuenta">no tienes cuenta, registrate</string>
+    <string name="Google">ingresa sesion con google</string>
+    <string name="alimento_consumido">Alimento consumido</string>
+    <string name="cantidad">Cantidad (gramos o porciones)</string>
+    <string name="actividad_fisica">Actividad física realizada</string>
+    <string name="duracion">Duración (minutos)</string>
+    <string name="intensidad">Intensidad (1-10)</string>
+    <string name="calcular">Calcular</string>
+    <string name="historial">Historial de consumo</string>
+    <string name="navigation_drawer_open">Abrir menú</string>
+    <string name="navigation_drawer_close">Cerrar menú</string>
+
+    <string-array name="alimentos">
+            <item>Arroz</item>
+            <item>Pollo</item>
+            <item>Pan</item>
+            <item>Frutas</item>
+        </string-array>
+
+        <string-array name="momentos">
+            <item>Desayuno</item>
+            <item>Almuerzo</item>
+            <item>Cena</item>
+            <item>Snack</item>
+        </string-array>
+
+        <string-array name="actividades">
+            <item>Caminar</item>
+            <item>Correr</item>
+            <item>Ciclismo</item>
+        </string-array>
+    </resources>
+

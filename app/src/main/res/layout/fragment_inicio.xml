@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/txtBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Bienvenido!"
+
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/txtInfoTienda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="En nuestra tienda encontraras los mejores productos de la actualidad, tanto ropa, como electronica, accesorios y mucho mas, ¿Que esperas? Estate a la moda con Starlight"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:gravity="center"/>
+</LinearLayout>

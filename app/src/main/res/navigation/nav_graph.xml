@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/FragmentElectronica"
+        android:name="com.example.segundocorte.fragments.FragmentElectronica"
+        android:label="Electrónica"
+        tools:layout="@layout/fragment_electronica" />
+
+
+    <fragment
+        android:id="@+id/FragmentRopa"
+        android:name="com.example.segundocorte.fragments.FragmentRopa"
+        android:label="Ropa"
+        tools:layout="@layout/fragment_ropa" />
+
+
+    <fragment
+        android:id="@+id/FragmentHogar"
+        android:name="com.example.segundocorte.fragments.FragmentHogar"
+        android:label="Hogar"
+        tools:layout="@layout/fragment_hogar" />
+
+
+    <fragment
+        android:id="@+id/fragmentDeportes"
+        android:name="com.example.segundocorte.fragments.FragmentDeportes"
+        android:label="Deportes"
+        tools:layout="@layout/fragment_deportes" />
+
+
+    <fragment
+        android:id="@+id/FragmentAccesorios"
+        android:name="com.example.segundocorte.fragments.FragmentAccesorios"
+        android:label="Accesorios"
+        tools:layout="@layout/fragment_accesorios" />
+
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.segundocorte.fragments.InicioFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+
+    <fragment
+        android:id="@+id/productosFragment"
+        android:name="com.example.segundocorte.fragments.ProductosFragment"
+        android:label="Productos"
+        tools:layout="@layout/fragment_productos" />
+
+
+    <fragment
+        android:id="@+id/categoriasFragment"
+        android:name="com.example.segundocorte.fragments.CategoriasFragment"
+        android:label="Categorías"
+        tools:layout="@layout/fragment_categorias" />
+
+
+    <fragment
+        android:id="@+id/carritoFragment"
+        android:name="com.example.segundocorte.fragments.CarritoFragment"
+        android:label="Carrito"
+        tools:layout="@layout/fragment_carrito" />
+
+
+
+</navigation>
